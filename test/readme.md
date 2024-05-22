@@ -69,7 +69,7 @@ After building the project, you will have an executable named `MyProject` (or `M
 
 - **Library Directory:** The static libraries are located in the `lib` directory. If you have additional libraries, place them in this directory and update the `CMakeLists.txt` file accordingly.
 
-- **Source Files:** The main source file is located in the `src` directory. You can add more source files as needed and update the `CMakeLists.txt` file to include them in the build.
+
 
 ## CMakeLists.txt Explanation
 
