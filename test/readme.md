@@ -109,14 +109,4 @@ endif()
 - An executable named `MyProject` is created from `main.c`.
 - The appropriate static library is linked based on the detected operating system.
 
-## License
 
-Include your license information here.
-
-## Authors
-
-Include the author information here.
-
-## Acknowledgements
-
-Include any acknowledgements or credits here.
