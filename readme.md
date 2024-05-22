@@ -57,32 +57,6 @@ Fss15mModel/
 
    This will compile the source files and create both the static library `SensorLib` and the executable `SensorSimulation`.
 
-### Test Subproject (Fss15mModelTesting)
-
-1. **Navigate to the test directory:**
-
-   ```sh
-   cd ../test
-   ```
-
-2. **Create a build directory:**
-
-   ```sh
-   mkdir build
-   cd build
-   ```
-
-3. **Generate the build files:**
-
-   ```sh
-   cmake ..
-   ```
-
-4. **Build the test project:**
-
-   ```sh
-   cmake --build .
-   ```
 
 ## Running the Example
 
@@ -94,32 +68,32 @@ After building the main project, you will have an executable named `SensorSimula
 
 This will execute the analysis and verify the functions defined in the `SensorLib` library.
 
-# Simulation Report
+## Simulation Report
 
-## Magnetometer Measurement Error
+### Magnetometer Measurement Error
 
-### Mean Error
+- Mean Error
 The mean error of the simulated magnetometer measurements in the XYZ axis is:
 \[ [0.45968525, -0.2160204, -0.24310844] \]
 
-### Standard Deviation
+- Standard Deviation
 The standard deviation of the simulated magnetometer measurements' error in the XYZ axis is:
 \[ [5.48219184, 4.68882155, 5.21317614] \]
 
-### Unit
+- Unit
 The unit of the magnetometer measurement error is nanotesla (nT).
 
-## Sun Sensor Measurement Error
+### Sun Sensor Measurement Error
 
-### Mean Error
+- Mean Error
 The mean error of the simulated sun sensor measurements is:
 \[ 0.213396 \]
 
-### Standard Deviation
+- Standard Deviation
 The standard deviation of the simulated sun sensor measurements' error is:
 \[ 0.0999 \]
 
-### Unit
+- Unit:
 The unit of the sun sensor measurement error is degrees.
 
 
