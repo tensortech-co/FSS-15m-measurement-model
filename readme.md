@@ -1,5 +1,5 @@
 # Fss15mModel
-
+[![CMake on multiple platforms](https://github.com/tensortech-co/FSS-15m-measurement-model/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/tensortech-co/FSS-15m-measurement-model/actions/workflows/cmake-multi-platform.yml)
 ## Overview
 
 Fss15mModel is a C project that simulates sensor operations and generates a static library `SensorLib` for use in other projects. This project includes an example executable `SensorSimulation` to run analysis and verify that the functions meet the requirements. The project is designed to be built with both GCC and Visual Studio.
