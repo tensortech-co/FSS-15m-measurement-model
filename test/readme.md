@@ -1,7 +1,7 @@
 # Fss15mModel Usage
 ## Overview
 
-Fss15mModelTesting is a C project designed to test the FSS (Fine Sun Sensor) model. This project uses CMake for build configuration and management. It includes header files, static libraries, and an example implementation to demonstrate the usage of the functions defined in the header files.
+Fss15mModelTesting is a C project designed to simulate the Fine Sun Sensor (FSS) model. The project utilizes CMake for build configuration and management. It includes header files, static libraries, and an example implementation demonstrating the usage of the functions defined in the header files. The simulated measurements include noise, as specified in our datasheet, allowing users to work without needing to connect to real hardware.
 
 ## Project Structure
 
